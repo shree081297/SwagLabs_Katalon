@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://www.google.com/')
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.google.com/')
+
+WebUI.setText(findTestObject('Object Repository/Demo/Page_Google/textarea_Sign in_q'), 'selenium')
+
+WebUI.closeBrowser()
+
